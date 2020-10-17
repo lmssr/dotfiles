@@ -12,6 +12,7 @@
 [core]
   pager = less -FRSX
 	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	excludesfile = /Users/lucmosser/.gitignore
 
 [alias]
   co = checkout
@@ -47,5 +48,10 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = luc.mosser86@orange.fr
-	name = Luc Mosser
+	email = luc.mosser86@gmail.com
+	name = lucmosser
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
