@@ -49,7 +49,7 @@
   mergeoptions = --no-edit
 [user]
 	email = luc.mosser86@orange.fr
-	name = lucmosser
+	name = luc mosser
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
