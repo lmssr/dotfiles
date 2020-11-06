@@ -48,7 +48,7 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = luc.mosser86@gmail.com
+	email = luc.mosser86@orange.fr
 	name = lucmosser
 [filter "lfs"]
 	clean = git-lfs clean -- %f
